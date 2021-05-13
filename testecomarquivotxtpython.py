@@ -25,7 +25,9 @@ lista.head()
 
 lista.shape
 
-lista['despacho'].value_counts().plot.bar()
+lista['despacho'].value_counts()
+
+lista['despacho'].value_counts().plot.barh()
 
 lista['despacho'].unique()
 
